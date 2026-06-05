@@ -535,6 +535,13 @@ textarea:focus-visible {
     padding: clamp(4rem, 8vw, 6.5rem) 0;
 }
 
+@supports (content-visibility: auto) {
+    .section-block {
+        contain-intrinsic-size: auto 48rem;
+        content-visibility: auto;
+    }
+}
+
 .section-heading {
     max-width: 44rem;
     margin-bottom: 2.25rem;
