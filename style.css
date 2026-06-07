@@ -380,6 +380,12 @@ textarea:focus-visible {
     transform: translateY(-0.42rem) rotate(-45deg);
 }
 
+.hero-section {
+    background:
+        linear-gradient(120deg, rgba(248, 250, 252, 0.94), rgba(239, 246, 255, 0.82)),
+        url("images/java1.jpg") center / cover;
+}
+
 .eyebrow,
 .section-kicker,
 .work-meta {
